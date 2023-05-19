@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myShop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+           <div class="container">
+            <div class="row justify-content-between">
+                <ul class="left-nav">
+                    <li> <a href="main.html" class="strong"><span class="flags kr"></span>KR</a>
+                        <ul class="trans-nav">
+                           <li><a href="main.html"><span class="flags kr"></span>한국어</a></li>
+                           <li><a href="main.html"><span class="flags en"></span>영어</a></li>
+                           <li><a href="main.html"><span class="flags jp"></span>일본어</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="main.html">고객센터</a></li>
+                </ul>
+                <ul class="right-nav">
+                    <li><a href="main.html">로그인</a></li>
+                    <li><a href="main.html" class="register">회원가입</a></li>
+                    <li><a href="main.html">배송조회</a></li>
+                    <li><a href="main.html">커뮤니티</a>
+                        <ul class="comunity-nav">
+                            <li><a href="main.html">공지사항</a></li>
+                            <li><a href="main.html">이벤트</a></li>
+                            <li><a href="main.html">상품후기</a></li>
+                            <li><a href="main.html">자주묻는질문</a></li>
+                            <li><a href="main.html">VIP전용게시판</a></li>
+                            <li><a href="main.html">배송문의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="main.html">마이쇼핑</a></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+        <section class="container">
+           <div class="header-section row">
+               <a href="main.html" class="logo"></a>
+               <!-- search -->
+               <form class="search-form">
+                 <label class="search">
+                    <input type="search" class="search">
+                    <button class="btn-search">
+                        <span class="material-icons-two-tone">
+                            search
+                        </span>
+                    </button>
+                 </label>   
+               </form>
+           </div>
+        </section>
+        <nav>
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-lg-10">
+                        <ul class="nav">
+                           <li class="nav-item"><a href="main.html">봄신상</a></li>
+                           <li class="nav-item"><a href="main.html">베스트</a></li>
+                           <li class="nav-item"><a href="main.html">핫딜</a></li>
+                           <li class="nav-item"><a href="main.html">인기상품제입고</a></li>
+                           <li class="nav-item"><a href="main.html">극찬후기</a></li>
+                           <li class="nav-item"><a href="main.html">77사이즈</a></li>
+                           <li class="nav-item"><a href="main.html">원피스</a></li>
+                           <li class="nav-item"><a href="main.html">아우터</a></li>
+                           <li class="nav-item"><a href="main.html">상의</a></li>
+                           <li class="nav-item"><a href="main.html">치마</a></li>
+                           <li class="nav-item"><a href="main.html">바지</a></li>
+                           <li class="nav-item"><a href="main.html">슈즈</a></li>
+                           <li class="nav-item"><a href="main.html">악세사리</a></li>
+                           <li class="nav-item"><a href="main.html">아울렛</a></li>
+                           <li class="nav-item"><a href="main.html">개인결제</a></li>
+                           <li class="nav-item"><a href="main.html">상품후기</a></li>
+                           <li class="nav-item"><a href="main.html">당일발송</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 text-right all">
+                        <a href="main.html" class="cart" id="cart">
+                            <span class="material-icons-two-tone">
+                               shopping_cart
+                            </span>
+                        </a>
+                        <a href="main.html" class="list-all newlist">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 장바구늬 스-->
+                <div class="cart-view none">
+                    <div class="cart-title">
+                       <h1>shopping-box</h1>
+                       <div class="cart-close" id="close">
+                          <span class="material-icons-outlined">
+                             close
+                          </span>
+                       </div>
+                    </div>    
+                    <div class="cart-body">
+                        <ul class="tab">
+                            <li class="active"><a href="javascript:void(0)" onclick="viewTab(0);">장바구니</a></li>
+                            <li><a href="javascript:void(0)" onclick="viewTab(1);">최근본상품</a></li>
+                            <li><a href="javascript:void(0)" onclick="viewTab(2);">관심상품</a></li>
+                            <li><a href="javascript:void(0)" onclick="viewTab(3);">좋아요</a></li>
+                        </ul>
+                        <div class="tabcontent-box">
+                           <div class="tabcontent active">
+                               <div class="imgbox">
+                                  <img src="images/001.gif" alt="001">
+                               </div>
+                               <div class="txtbox"></div>
+                           </div>
+                           <div class="tabcontent">
+                              <div class="imgbox"></div>
+                              <div class="txtbox"></div>
+                           </div>
+                           <div class="tabcontent">
+                              <div class="imgbox"></div>
+                              <div class="txtbox"></div>
+                           </div>
+                           <div class="tabcontent">
+                              <div class="imgbox"></div>
+                              <div class="txtbox"></div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="cart-bottom">
+                        dd
+                    </div>
+                </div>
+
+            </div>
+
+            <!--sitemap -->
+            <div class="sitemap" id="sitemap">
+                 <div class="sitenav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="row border-right">
+                                    <div class="col-md-6">
+                                        <h1>카테고리</h1>
+                                        <ul>
+                                            <li><a href="main.html">봄신상</a></li>
+                                            <li><a href="main.html">베스트</a></li>
+                                            <li><a href="main.html">핫딜</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                       <ul class="mt-cat">
+                                        <li><a href="main.html">인기상품재입고</a></li>
+                                        <li><a href="main.html">77사이즈</a></li>
+                                        <li><a href="main.html">원피스</a></li>
+                                        <li><a href="main.html">아우터</a></li>
+                                        <li><a href="main.html">상의</a></li>
+                                        <li><a href="main.html">치마</a></li>
+                                        <li><a href="main.html">바지</a></li>
+                                        <li><a href="main.html">슈즈</a></li>
+                                        <li><a href="main.html">악세사리</a></li>
+                                        <li><a href="main.html">아울렛</a></li>
+                                        <li><a href="main.html">개인결제</a></li>
+                                        <li><a href="main.html">당일배송</a></li>
+                                       </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">  
+                                   <div class="col-md-4 border-right">
+                                       <h1>커뮤니티</h1>
+                                       <ul>
+                                        <li><a href="main.html">공지사항</a></li>
+                                        <li><a href="main.html">이벤트</a></li>
+                                        <li><a href="main.html">상품후기</a></li>
+                                        <li><a href="main.html">자주묻는질문</a></li>
+                                        <li><a href="main.html">VIP전용게시판</a></li>
+                                        <li><a href="main.html">배송문의</a></li>
+                                        <li><a href="main.html">교환/반품문의</a></li>
+                                        <li><a href="main.html">배송전 취소/변경</a></li>
+                                        <li><a href="main.html">입금/기타문의</a></li>
+                                        <li><a href="main.html">상품문의</a></li>
+                                        <li><a href="main.html">고디/재입고문의</a></li>
+                                       </ul>
+                                   </div>
+                                   <div class="col-md-4 border-right">
+                                       <h1>쇼핑</h1>
+                                       <ul>
+                                        <li><a href="main.html">장바구니</a></li>
+                                        <li><a href="main.html">배송조회</a></li>
+                                        <li><a href="main.html">내 쿠폰</a></li>
+                                        <li><a href="main.html">좋아요</a></li>
+                                        <li><a href="main.html">관심상품</a></li>
+                                        <li><a href="main.html">최근 본 상품</a></li>
+                                       </ul>
+                                   </div>
+                                   <div class="col-md-4">
+                                       <h1>개인정보</h1>
+                                       <ul>
+                                        <li><a href="main.html">마이쇼핑</a></li>
+                                        <li><a href="main.html">로그인</a></li>
+                                        <li><a href="main.html">회원가입</a></li>
+                                        <li><a href="main.html">아이디 찾기</a></li>
+                                        <li><a href="main.html">비밀번호 찾기</a></li>
+                                       </ul>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="bimgbox">
+                       <img src="images/pd/022.jpg" id="bimg" alt="01">
+                       <div class="best-rv d-flex">
+                           <div class="rv-star">
+                              <h5>리뷰평점</h5>
+                              <p>5.0</p>
+                              <p>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                              </p>
+                           </div>
+                           <div class="rv-pt">
+                             <div class="pt-in" id="ptIn">
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                                <a href="#" class="svbox"></a>
+                             </div>          
+                           </div>
+                           <i id="btn-left" class="fa-solid fa-chevron-left"></i>
+                           <i id="btn-right" class="fa-solid fa-chevron-right"></i>
+                       </div>
+                    </div>
+                    <div class="simgbox">
+                        <img src="images/pd/001.jpg" class="simg" alt="01">
+                        <img src="images/pd/002.jpg" class="simg" alt="01">
+                        <img src="images/pd/003.jpg" class="simg" alt="01">
+                        <img src="images/pd/004.jpg" class="simg" alt="01">
+                    </div>
+                </div> 
+            </div>
+            <div class="col-lg-6">
+                <form id="shopform" name="shopform" method="post">
+                    <ul class="mainproduct">
+                        <li class="subject">앙상블트위드원피스[55~77size가능]<span>신상10%</span></li>
+                        <li><p>자켓 + 스커트 입은듯한 입체감 매력~ 단아함 물~씬 요조숙녀로 이미지 체인지 !</p></li>
+                        <li class="big"><label>판매가</label><del>91,000원</del></li>
+                        <li class="big"><label>할인판매가</label><strong>81,900원</strong><span class="salem"></span></li>
+                        <li class="big rootColors"><label>color</label>
+                            <label class="colors rgray"><input type="radio"  class="color" name="color" value="회색" checked><span></span><p>회색</p></label>
+                            <label class="colors rblack"><input type="radio"  class="color" name="color" value="검정색" ><span></span><p>검정색</p></label>
+                            <label class="colors purple"><input type="radio"  class="color" name="color" value="보라색" ><span></span><p>보라색</p></label>
+                            <label class="colors pink"><input type="radio"  class="color" name="color" value="핑크색" ><span></span><p>핑크색</p></label>
+                        </li>
+
+                        <li class="big"><label>size</label>
+                            <label class="sizes m"><input type="radio" class="size" name="size" value="M"><span></span><p>M</p></label>
+                            <label class="sizes l"><input type="radio" class="size" name="size" value="L"><span></span><p>L</p></label>
+                            <label class="sizes xl"><input type="radio" class="size" name="size" value="XL"><span></span><p>XL</p></label>
+                            <label class="sizes 2xl"><input type="radio" class="size" name="size" value="2XL"><span></span><p>2XL</p></label>
+                        </li>
+                    </ul>
+                    <div id="addProduct"></div>        
+                    <div class="total">
+                        <label>총 상품금액<span>(수량)</span></label>
+                        <div>0<span>(0개)</span></div>
+                    </div>
+                    <input type="hidden" name="price" id="price"value="81900">
+                    <input type="hidden"name="title" id="title" value="앙상블원피스">
+                    <input type="hidden" name="totaprice" id="totaprice">
+                </form>
+            </div>
+        </div>
+    </div>
+   
+ <!--- footer -->
+<footer>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="bglogobox">
+                    <img src="images/logo.png" alt="shop" class="bglogo">
+                    <a href="main.html"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="main.html"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="main.html"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="footer-nav">
+                    <a href="main.html" class="act">이용안내</a>
+                    <a href="main.html">이용약관</a>
+                    <a href="main.html"><strong>갠정보철방췸</strong></a>
+                    <a href="main.html">cs쎄너</a>
+                </div>
+                <div class="address">
+                   <p>(주)주식의친구| 00레디스| 대표이사 : 홍길동| 사업자등록번호 : 000-0000-0000| 000@naver.com</p>
+                   <address>
+                    김포시 999 장기로 17 (장기동) 월드타워 8F | 고객센터 : 1566-4773| 팩스 : 02-766-8682
+                    통신판매업신고 : 제2000-김포장기-00111| 서비스 가입사실 확인| 개인정보보호책임자 : 김범준
+                    교환 / 반품 : 서울시 동대문구 천호대로4 동대문우체국(810) 타임레이디(반품주소지) 우편번호 : 02586
+                   </address>
+                   <p>&copy;asdf ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+            <div class="offset-lg-2 col-lg-3">2</div>
+            <div class="col-lg-2">3</div>
+        </div>
+    </div>
+</footer>
+<div class="quick">
+    <ul class="quick-btns">
+        <li onclick="viewQuick()"><i class="fa-solid fa-xmark"></i></li>
+        <li><i class="fa-solid fa-user-ninja"></i></li>
+        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+        <li><i class="fa-solid fa-angle-up"></i></li>
+        <li><i class="fa-solid fa-angle-down"></i></li>
+    </ul>
+    <div class="quick-com">
+        <div class="quick-logo"><img src="images/logo.png" alt="logo"></div>
+        <div class="quick-link">
+            <a href="main.html">로그인</a> <span></span>
+            <a href="main.html">회원가입</a>
+        </div>
+        <div clas="quick-board">
+            <h1>board</h1>
+            <ul>
+                <li><a href="main.html">공지사항</a></li>
+                <li><a href="main.html">이벤트</a></li>
+                <li><a href="main.html">상품후기</a></li>
+                <li><a href="main.html">자주묻는질문</a></li>
+                <li><a href="main.html">vip전용게시판</a></li>
+                <li><a href="main.html">배송문의</a></li>
+                <li><a href="main.html">교환/반품문의</a></li>
+                <li><a href="main.html">배송전 취소/변경</a></li>
+                <li><a href="main.html">입금/기타문의</a></li>
+                <li><a href="main.html">상품문의</a></li>
+                <li><a href="main.html">코디/재입고문의</a></li>
+            </ul>
+        </div>
+
+        <div class="quick-center">
+            <h1>cs center</h1>
+            <p>기업은행 000 00000 0000</p>
+            <p>농협은행 000 00000 0000</p>
+            <p>신한은행 000 00000 0000</p>
+            <p>국민은행 000 00000 0000</p>
+            <p>예금주 홍길동</p>
+        </div>
+        <div class="quick-service">
+            <p class="tel">
+                <a href="tel:1566-4773">1566-4773</a>
+            </p>
+            <ul>
+                <li>평일/오전10시~오후4시</li>
+                <li>점심/오후12시 ~ 오후1시</li>
+                <li>토,일,공휴일 휴무</li>
+                <li> 
+                    <a href="main.html"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="main.html"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="main.html"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>    
+        </div>
+    </div>
+</div>
+    <script src="js/shop.js"></script>
+    <!-- <script src="js/shoplist.js"></script> -->
+</body>
+</html>

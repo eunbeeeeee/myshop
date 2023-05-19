@@ -1,0 +1,292 @@
+{
+    "shoplist": [
+        {
+            "img": "images/pd/001.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/002.jpg",
+            "title":"엔씨카라자켓원피스",
+            "color": ["black", "pink"],
+            "delprice": "96,000원",
+            "saleprice": "91,900원",
+            "content": "투피스를 입은 듯, 입체미가 매력포인트 ! 자켓의 매력이 담겨져서 분위기도 남달라요 :)",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/003.jpg",
+            "title":"라듀트위트치마세트",
+            "color": ["black", "pink", "gray"],
+            "delprice": "140,000원",
+            "saleprice": "130,900원",
+            "content": "블링블링 화사한 봄🌸을 담은 트위드 셋업~ 생기 컬러감으로 미모 업그레이드 ♡",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/004.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/005.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/006.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/007.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/008.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/009.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/010.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/011.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/012.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/013.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/014.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/015.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/016.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/017.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/018.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/019.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/020.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/021.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/022.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/023.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/024.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/025.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/026.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/027.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/028.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/029.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/030.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/031.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        },
+        {
+            "img": "images/pd/032.jpg",
+            "title":"라타스퀘어원피스",
+            "color": ["black", "pink", "gray"],
+            "delprice": "71,000원",
+            "saleprice": "63,900원",
+            "content": "미니 or 미디 원하시는 무드로 초이스 해보세요~♡ 여리미와 우아함 둘다 소유된 원피스 !",
+            "news": ["신상10%", "핫딜할인5%"]
+        }
+    ]
+}
